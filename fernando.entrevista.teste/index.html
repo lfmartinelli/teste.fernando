@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Teste Fernando Martinelli</title>
+    <link rel="shortcut icon" href="fernando.ico" type="image/x-icon" />
+    <link rel="image_src" href="http://www.gobyte.com.br/teste/avatar_martinelli.png" />
+    <meta property="og:site_name" content="Fernando Martinelli - Desenvolvedor WEB" />
+    <meta property="og:title" content="Demonstração de Desenvolvimento" />
+    <meta property="og:description" content="Front-end: JavaScript, Axio API, HTML5 e CSS3 - Banckend: C#.net Web API Rest - Database: PostgreSQL v9" />
+    <meta property="og:url" content="http://teste.gobyte.com.br" />
+    <meta property="og:image" content="http://www.gobyte.com.br/teste/avatar_martinelli.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="562" />
+    <meta property="og:image:height" content="562" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/layout.css" rel="stylesheet" />
+    <link href="fonts.css" rel="stylesheet" />
+    <link href="styles/login.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Master-->
+        <div id="divTesteHeader">
+            <div id="divTesteHeader_menu">
+                <input id="btnTesteHeader_iniciar" type="button" value="iniciar" />
+                <a href="usuarios_relatorio.html"><input id="btnTesteHeader_produtos" type="button" value="usuários" /></a>
+                <input id="btnMeuCarrinho" type="button"/>
+            </div>
+        </div>
+    <!------------>
+    <div id="divTesteBanner">
+        <div id="divTesteBanner_corpo">
+            <div id="divTesteLogin">
+                <div id="divTesteLogin_titulo">Acesse com seu e-mail e senha</div>
+                <div id="divTesteLogin_email">
+                   <input id="txtTesteLogin_email" type="text" placeholder="Email"/>
+            </div>
+            <div id="divTesteLogin_senha">
+                <input id="txtTesteLogin_senha" type="password" placeholder="Senha"/>
+            </div>
+            <div id="divTesteLogin_entrar">
+                <input id="btnTesteLogin_entrar" type="button" value="Entrar"/>
+            </div>
+            <div id="divTesteLogin_esqueci">
+               <input id="btnTesteLogin_esqueci" type="button" value="Esqueci minha senha"/>
+            </div>
+            <div id="divTesteLogin_novo"><input id="btnTesteLogin_sounovo" value="Sou Novo por aqui"/></div>
+           </div>
+        </div>
+        <div id="divTesteLogin_bemvindo" style="display:none">
+            Seja bem vindo<br />
+            <span id="lblTesteLogin_bemvindo"></span>
+        </div>
+    </div>
+    <div id="divTesteFaixa_titulo">Escolha aqui o que você precisa?</div>
+    <div id="divTesteFaixa">
+        <div id="divTesteFaixa_servicos01">
+            <div id="divCategorias01" class="divCategorias01">
+                Você precisa estar logado!
+            </div>
+        </div>
+        <div id="divTesteFaixa_servicos02">
+            <div id="divCategorias02" class="divCategorias02">
+                Você precisa estar logado!
+            </div>
+        </div>
+        <div id="divTesteFaixa_servicos03" onclick="window.open('usuarios_relatorio.html', '_self')"></div>
+    </div>
+    <div id="divTesteMeio">
+        <strong class="lblTitulo">Sistema Balcão para Venda de Cosméticos</strong><br /><br />
+        Este é um o sistema de vendas para empresa Geo Cosméticos centralizando a administração de vendas da nossa rede de lojas. Devidamente logado, nossos profissionais tem acesso ao estoque de produtos e cadatro de clientes. O usuário adm tem também acesso a inclusão, consulta e exclusão de usuários.&nbsp;
+    </div>
+    <div id="divTesteEmpresas"></div>
+    <script type="text/javascript">index_load()</script>
+</body>
+</html>

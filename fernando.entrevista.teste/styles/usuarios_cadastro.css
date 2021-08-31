@@ -1,0 +1,80 @@
+﻿
+/*#region Body e Form*/
+
+body {
+    width: 1920px;
+    height: 828px;
+}
+
+#divTesteBody {
+    width: 100%;
+    height: 636px;
+    background-color: #e2e2e2;
+    border-top: 2px solid #808080;
+}
+
+#divTesteForm_centralizar {
+    width: 1024px;
+    height: 509px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divTesteForm_preencher {
+    width: 1024px;
+    height: 436px;
+    padding-top: 20px;
+}
+
+/*#endregion*/
+
+/*#region Permissão de acessos*/
+
+.divTesteAcessos_container {
+    width:1004px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    border: 2px solid #808080;
+    border-radius: 6px;
+}
+
+.btnTesteAcessos_item {
+    /*width: 164px;*/
+    height: 32px;
+    padding-left: 26px;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-image: url('../images/cadastro/fundo_item.png');
+    background-color: #706d6d;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btnTesteAcessos_item_selected {
+    /*width: 164px;*/
+    height: 32px;
+    padding-left: 26px;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-image: url('../images/cadastro/fundo_item_del.png');
+    background-color: #13306b;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*#endregion*/

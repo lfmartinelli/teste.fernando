@@ -1,0 +1,202 @@
+﻿
+/*#region Grid*/
+
+.gridRelatorio {
+    width: 900px;
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cssteste_usuarios_title {
+    background-color: #555555;
+    color: #f2f2f2;
+    font-family: inherit;
+    font-size: inherit;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #464545;
+    border-radius: 8px;
+}
+
+/*#endregion*/
+
+/*#region  Collumns*/
+
+.cssteste_usuarios_col_title {
+    width:227px;
+    padding: 6px;
+    background-color: #555555;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: inherit;
+    border: none;
+    border-radius: 4px;
+}
+
+.cssteste_usuarios_col {
+    width:227px;
+    padding: 6px;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*#endregion*/
+
+/*#region Rows*/
+
+.cssgridRelatorio_row {
+    padding: 6px;
+    background-color: transparent;
+    color: #232424;
+    font-family: Arial;
+    font-size: 14px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #3b3b3b;
+}
+
+.cssgridRelatorio_row:hover {
+    padding: 6px;
+    background-color:#929fa8;
+    color: #232424;
+    font-family: Arial;
+    font-size: 14px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #3b3b3b;
+}
+
+.cssgridRelatorio_inativo_row {
+    padding: 6px;
+    background-color: transparent;
+    color: #a9a9a9;
+    font-family: Arial;
+    font-size: 14px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #b9b9b9;
+}
+
+.cssgridRelatorio_impar_row {
+    padding: 6px;
+    background-color: transparent;
+    color: #232424;
+    font-family: inherit;
+    font-size: 14px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #b9b9b9;
+}
+
+/*#endregion*/
+
+/*#region Buttons Header Collumns (Coluna Zero)*/
+
+.btnSelect {
+    border: none;
+    width: 22px;
+    height: 22px;
+    margin-right:4px;
+    background-image: url("../images/btnSelect.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnAtivo {
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-image: url("../images/btnDesativar.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnInativo {
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-image: url("../images/btnAtivar.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*#endregion*/
+
+/*#region Controle de Páginas*/
+
+.divGridPaginas_registros_pagina {
+    font-family: inherit;
+    font-size: 12px;
+    color: #78848e;
+    width: 170px;
+    margin-top: 8px;
+    margin-right: 6px;
+    float: right;
+    text-align: right;
+}
+
+.btnGridPaginas {
+    margin-top: 7px;
+    width: 28px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.txtGridPagina_numero {
+    margin-top: 2px;
+    padding-left: 8px;
+    width: 48px;
+    height: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #646c6f;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-right: 20px;
+}
+
+.btnGridPagina_buscar {
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #646c6f;
+    border-left: none;
+    margin-top: 4px;
+    margin-left: -4px;
+    font-weight: bold;
+    background-color: #929fa8;
+    cursor: pointer;
+}
+
+
+/*#endregion*/
+
+.divMsg {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #232424;
+}
+
+.cssteste_usuarios_orderby {
+    color: #d1b640;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

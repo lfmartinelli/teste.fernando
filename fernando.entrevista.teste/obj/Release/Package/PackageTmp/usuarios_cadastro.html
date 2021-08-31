@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cadastro de Usuários</title>
+    <link href="styles/layout.css" rel="stylesheet" />
+    <link href="styles/usuarios_cadastro.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="scripts/usuarios_cadastro.js?v=1"></script>
+    <link href="fonts.css" rel="stylesheet" />
+    <script src="scripts/smartJS.js"></script>
+    <script src="scripts/axios.js"></script>
+    <script src="scripts/simpleAPI.js"></script>
+    <script src="scripts/smartSQL.js"></script>
+</head>
+<body>
+    <div id="divTesteHeader_clean">
+        <div id="divTesteHeader_logo"></div>
+        <div id="divTesteHeader_menu_clean">
+            <input id="btnTesteHeader_novo_usuario" type="button" value="novo usuário" />
+            <a href="usuarios_relatorio.html"><input id="btnTesteHeader_usuarios" type="button" value="listagem usuários" /></a>
+        </div>
+    </div>
+    <div id="divTesteBody">
+        <div id="divTesteForm_centralizar">
+           <div id="divTesteForm_preencher">
+                <div class="divTesteForm_line">
+                    <input id="tempCod" type="hidden" data-form="usuario" data-field="cod" value="0"/>
+                    <input id="txtnome" class="txtInsereDado_1" style="margin-right:0px" type="text" placeholder="Nome" data-form="usuario" data-field="nome,string" data-format="titlecase"/>
+                </div>
+                <div class="divTesteForm_line">
+                    <input id="txtemail" class="txtInsereDado_1" style="margin-right:0px" type="text" placeholder="E-Mail" data-form="usuario" data-field="email,string"/>
+                </div>
+                <div class="divTesteForm_line">
+                    <input id="txtsenha" class="txtInsereDado_3" type="password" placeholder="Senha" data-form="usuario" data-field="senha,string"/>
+                    <input id="txtnascimento" class="txtInsereDado_3" type="text" placeholder="Data Nascimento" data-form="usuario" data-field="data_nascimento,datetime" onkeyup="smartFormsFormatDate(this.id)"/>
+                    <select id="cmbsexo" class="cmbEscolheDado_3" style="margin-right:0px" data-form="usuario" data-field="sexo,string">
+                        <option>Sexo</option>
+                    </select>
+                </div>
+                <div class="divTesteForm_line" style="height:227px;">
+                    <span class="lblMiniLabel">Informe os módulos com acesso autorizado para o usuário:</span><br /><br />
+                    <div id="divTesteAcessos_usuario" class="divTesteAcessos_container" style="height:50px;">
+                        <input id="btnAcessosItem_produtos" class="btnTesteAcessos_item" type="button" value="PRODUTOS" onclick="subInsereItem(this.id, 'produtos')"/>
+                        <input id="btnAcessosItem_clientes" class="btnTesteAcessos_item" type="button" value="CLIENTES" onclick="subInsereItem(this.id, 'clientes')"/>
+                        <input id="btnAcessosItem_usuarios" class="btnTesteAcessos_item" type="button" value="USUARIOS" onclick="subInsereItem(this.id, 'usuairos')"/>
+          
+                    </div><br />
+                    <input id="tempAcessos" type="hidden" data-form="usuario" data-field="acessos"/>
+                    <div id="divTesteAcessos_selecionados" class="divTesteAcessos_container" style="height:80px; background-color:#d9d8d8"></div>
+                    <br />
+                </div>
+                <div class="divTesteForm_line">
+                    <input id="btnTesteForm_enviar" class="btnButton_green" style="width:1024px; margin-right:0px;" type="button" value="Enviar"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divTesteEmpresas"></div>
+    <script type="text/javascript">usuariosCadastro_load()</script>
+</body>
+</html>

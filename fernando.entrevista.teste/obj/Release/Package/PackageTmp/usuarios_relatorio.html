@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Listagem de Usuários</title>
+    <link href="styles/layout.css" rel="stylesheet" />
+    <link href="styles/usuarios_relatorio.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="scripts/usuarios_relatorio.js"></script>
+    <link href="fonts.css" rel="stylesheet" />
+    <script src="scripts/smartJS.js"></script>
+    <script src="scripts/axios.js"></script>
+    <script src="scripts/simpleAPI.js"></script>
+    <link href="styles/dataGrid.css" rel="stylesheet" />
+    <script src="scripts/smartSQL.js"></script>
+</head>
+<body>
+    <div id="divTesteHeader_clean">
+        <div id="divTesteHeader_logo"></div>
+        <div id="divTesteHeader_menu_clean">
+            &nbsp;<a href="usuarios_cadastro.html"><input id="btnTesteHeader_usuarios" type="button" value="novo usuário" /></a>
+        </div>
+    </div>
+    <div id="divTesteBody">
+        <div id="divTesteForm_centralizar">
+            <div id="divUsuarios_filtro">
+                <input id="txtUsuarios_filtro_nome" placeholder="Nome" type="text" data-form="usuario" data-field="nome,string" data-filter="like" />
+                <select id="cmbUsuarios_filtro_ativo" data-form="usuario" data-field="ativo">
+                    <option value="">Ativo/Inativo</option>
+                    <option value=1>Ativo</option>
+                    <option value=0>Inativo</option>
+                </select>
+                <div class="divTesteForm_line">
+                    <input id="btnUsuarios_filtro_enviar" class="btnButton_green" style="width:1024px; margin-right:0px;" type="button" value="Filtrar Usuários"/>
+                </div>
+            </div>
+            <div id="divUsuarios_relatorio">
+
+            </div>
+        </div>
+    </div>
+    <div id="divTesteEmpresas"></div>
+    <script type="text/javascript">usuariosRelatorio_load()</script>
+
+</body>
+</html>

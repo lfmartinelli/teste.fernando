@@ -1,0 +1,137 @@
+﻿
+#divTesteLogin {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 400px;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 0.40) 1px 1px 18px;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 79px;
+    left: 117px;
+}
+
+#divTesteLogin_titulo {
+    padding-top: 40px;
+    height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    color: #808080;
+}
+
+#divTesteLogin_email {
+    padding-top: 40px;
+    height: 60px;
+    text-align: center;
+}
+
+#txtTesteLogin_email {
+    width: 320px;
+    height: 34px;
+    border: 1px solid #808080;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #808080;
+}
+
+#divTesteLogin_senha {
+    height: 60px;
+    text-align: center;
+}
+
+#txtTesteLogin_senha {
+    width: 320px;
+    height: 34px;
+    border: 1px solid #808080;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #808080;
+}
+
+#divTesteLogin_entrar {
+    height: 44px;
+    text-align: center;
+}
+
+#btnTesteLogin_entrar {
+    width: 324px;
+    height: 38px;
+    border: none;
+    background-color: #69635c;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#divTesteLogin_esqueci {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px dotted #808080;
+}
+
+#btnTesteLogin_esqueci {
+    border: none;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #69635c;
+    cursor: pointer;
+}
+
+#divTesteLogin_novo {
+    padding-top: 10px;
+    height: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #69635c;
+}
+
+#btnTesteLogin_sounovo {
+    border: none;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+    color: #69635c;
+    cursor: pointer;
+}
+
+#divTesteLogin_cadastro {
+    padding-top: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+#btnTesteLogin_cadastro_empresa {
+    width: 160px;
+    border: none;
+    border-right: 2px solid rgb(0 0 0 / 0.40);
+    font-family: Arial;
+    font-size: 14px;
+    color: #0096b7;
+    cursor: pointer;
+}
+
+#btnTesteLogin_cadastro_profissional {
+    width: 90px;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #0096b7;
+    cursor: pointer;
+}

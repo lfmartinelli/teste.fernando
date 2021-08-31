@@ -1,0 +1,347 @@
+﻿body {
+    width: 1920px;
+    height: 1566px;
+}
+
+/*#region Banner*/
+
+#divTesteBanner {
+    width: 1920px;
+    height: 563px;
+    margin-top:-16px;
+}
+
+#divTesteBanner_corpo {
+    width: 1920px;
+    height: 563px;
+    background-image: url('../images/index/banner.jpg');
+    position: relative;
+}
+
+#btnTesteBanner_cadastre {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    position: absolute;
+    top: 241px;
+    left: 557px;
+    width: 321px;
+    height: 94px;
+    cursor: pointer;
+}
+
+/*#endregion*/
+
+#divTesteLogin_bemvindo {
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    top: 376px;
+    left: 137px;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    font-weight:bold;
+    color: #808080;
+    text-align:center;
+}
+
+#lblTesteLogin_bemvindo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #808080;
+}
+
+/*#region Faixa de serviços*/
+
+#divTesteFaixa_titulo {
+    padding-top: 20px;
+    height: 60px;
+    font-family: Conv_SWZ721H;
+    font-size: 38px;
+    color: #808080;
+    text-align: center;
+}
+
+#divTesteFaixa {
+    height: 320px;
+    box-shadow: rgb(0 0 0 / 0.40) 4px 0px 16px;
+    display: table;
+}
+
+/*#region Produtos*/
+
+#divTesteFaixa_servicos01 {
+    float: left;
+    width: 623px;
+    height: 320px;
+    background-image: url('../images/index/ithumb_menu_produtos.jpg');
+    background-repeat: no-repeat;
+    border-right: 24px solid white;
+    cursor: pointer;
+}
+
+.divCategorias01 {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    animation-name: hideCategorias01;
+    animation-duration: 0.8s;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:200;
+}
+
+.divCategorias01_ {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    animation-name: hideCategorias01;
+    animation-duration: 0.8s;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 200;
+    cursor:pointer;
+}
+
+/* Standard syntax */
+@keyframes hideCategorias01 {
+    from {
+        opacity:1;
+    }
+
+    to {
+        opacity:0;
+    }
+}
+
+.divCategorias01:hover {
+    padding-top: 140px;
+    width: 623px;
+    height: 180px;
+    opacity: 1;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(21 21 21 / 0.70);
+    animation-name: showCategorias01;
+    animation-duration: 0.8s;
+}
+
+/* Standard syntax */
+@keyframes showCategorias01 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*#endregion*/
+
+/*#region Clientes*/
+
+#divTesteFaixa_servicos02 {
+    float: left;
+    width: 623px;
+    height: 320px;
+    background-image: url('../images/index/ithumb_menu_clientes.jpg');
+    background-repeat: no-repeat;
+    border-right: 24px solid white;
+    cursor:pointer;
+}
+
+.divCategorias02 {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    animation-name: hideCategorias01;
+    animation-duration: 0.8s;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.divCategorias02_ {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+/* Standard syntax */
+@keyframes hideCategorias02 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.divCategorias02:hover {
+    padding-top: 140px;
+    width: 623px;
+    height: 180px;
+    opacity: 1;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(21 21 21 / 0.70);
+    animation-name: showCategorias01;
+    animation-duration: 0.8s;
+}
+
+/* Standard syntax */
+@keyframes showCategorias02 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*#endregion*/
+
+/*#region Usuários*/
+
+#divTesteFaixa_servicos03 {
+    float: left;
+    width: 623px;
+    height: 320px;
+    background-image: url('../images/index/ithumb_menu_usuarios.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.divCategorias03 {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    animation-name: hideCategorias01;
+    animation-duration: 0.8s;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+.divCategorias03_ {
+    width: 623px;
+    height: 320px;
+    opacity: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+/* Standard syntax */
+@keyframes hideCategorias03 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.divCategorias03:hover {
+    padding-top: 140px;
+    width: 623px;
+    height: 180px;
+    opacity: 1;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(21 21 21 / 0.70);
+    animation-name: showCategorias01;
+    animation-duration: 0.8s;
+}
+
+/* Standard syntax */
+@keyframes showCategorias03 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*#endregion*/
+
+.btnServicos {
+    width: 201px;
+    height: 54px;
+    border: 0px solid #808080;
+    border-radius:6px;
+    margin-top: 4px;
+    margin-left:2px;
+    background-color: rgb(21 21 21 / 0.70);
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+    .btnServicos:hover {
+        width: 201px;
+        height: 54px;
+        border: 0px solid #808080;
+        border-radius: 6px;
+        margin-top: 4px;
+        margin-left: 2px;
+        background-color: rgb(21 21 21);
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        white-space: normal;
+        word-wrap: break-word;
+        cursor: pointer;
+    }
+
+/*#endregion*/
+
+/*#region Texto do meio*/
+
+#divTesteMeio {
+    width: 1500px;
+    height: 300px;
+    padding-top: 60px;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    color: #808080;
+    line-height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lblTitulo {
+    font-family: Conv_SWZ721H;
+    font-size: 30px;
+    color: #808080;
+}
+
+/*#endregion*/
+
+/*#region Emperesas*/
+
+#divTesteEmpresas {
+    height: 381px;
+    background-image: url('../images/index/faixa_empresas.jpg');
+}
+
+/*#endregion*/

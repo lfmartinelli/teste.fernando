@@ -1,0 +1,494 @@
+﻿
+/*#region Header Menu*/
+
+#divTesteHeader {
+    padding-top: 20px;
+    width: 1920px;
+    height: 142px;
+    background-image: url('../images/layout/header_menu.png');
+    z-index:100;
+}
+
+#divTesteHeader_menu {
+    margin-left: 690px;
+    width: 1130px;
+    height: 106px;
+    position: relative;
+}
+
+#btnTesteHeader_iniciar {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 100px;
+    height: 34px;
+    color: #80776d;
+    font-family: Conv_SWZ721H;
+    font-size: 28px;
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    cursor: pointer;
+    right: 1004px;
+}
+
+#btnTesteHeader_produtos {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 177px;
+    height: 34px;
+    color: #80776d;
+    font-family: Conv_SWZ721H;
+    font-size: 28px;
+    position: absolute;
+    top: 40px;
+    left: 184px;
+    cursor: pointer;
+}
+
+#btnMeuCarrinho {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    background-image: url('../images/layout/btnMeuCarrinho.png');
+    width: 225px;
+    height: 110px;
+    color: white;
+    font-family: Conv_SWZ721H;
+    font-size: 28px;
+    position: absolute;
+    top: -1px;
+    left: 438px;
+    cursor: pointer;
+}
+
+#btnTesteHeader_empresa {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    background-image: url('../images/layout/btnMenuEmpresa.png');
+    width: 412px;
+    height: 103px;
+    color: white;
+    font-family: Conv_SWZ721H;
+    font-size: 28px;
+    position: absolute;
+    top: 3px;
+    left: 717px;
+    cursor: pointer;
+}
+
+/*#endregion*/
+
+/*#region Header Clean*/
+
+#divTesteHeader_clean {
+    width: 1920px;
+    height: 94px;
+    display: table;
+    background-color: white;
+}
+#divTesteHeader_logo {
+    float: left;
+    width: 140px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-image: url('../images/layout/logo.png');
+    background-size: cover;
+}
+
+#divTesteHeader_menu_clean {
+    float: left;
+    margin-left: 800px;
+    width: 900px;
+    height: 92px;
+    position: relative;
+}
+
+#btnTesteHeader_iniciar_clean {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 200px;
+    height: 92px;
+    color: #808080;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    position: absolute;
+    left: 26px;
+    cursor: pointer;
+}
+
+    #btnTesteHeader_iniciar_clean:hover {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        background-color: #629a69;
+        width: 200px;
+        height: 92px;
+        color: white;
+        font-family: Conv_SWZ721H;
+        font-size: 20px;
+        position: absolute;
+        left: 26px;
+        cursor: pointer;
+    }
+
+#btnTesteHeader_painel_clientes_clean {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 200px;
+    height: 92px;
+    color: #808080;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    position: absolute;
+    left: 381px;
+    cursor: pointer;
+}
+
+    #btnTesteHeader_painel_clientes_clean:hover {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        background-color: #629a69;
+        width: 200px;
+        height: 92px;
+        color: white;
+        font-family: Conv_SWZ721H;
+        font-size: 20px;
+        position: absolute;
+        left: 381px;
+        cursor: pointer;
+    }
+
+#btnTesteHeader_usuarios {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 200px;
+    height: 92px;
+    color: #808080;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    position: absolute;
+    left: 282px;
+    cursor: pointer;
+    top: 0px;
+}
+
+    #btnTesteHeader_usuarios:hover {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        background-color: #629a69;
+        width: 200px;
+        height: 92px;
+        color: white;
+        font-family: Conv_SWZ721H;
+        font-size: 20px;
+        position: absolute;
+        left: 282px;
+        cursor: pointer;
+    }
+
+/*#endregion*/
+
+/*#region Form*/
+
+#divTesteBody {
+    width: 100%;
+    background-color: #ededed;
+    padding-top: 40px;
+}
+
+.divTesteForm_titulo {
+    width: 1024px;
+    height: 70px;
+    font-family: Conv_SWZ721H;
+    font-size: 28px;
+    color: #808080;
+    text-align: center;
+    line-height: 30px;
+}
+
+.divTesteForm_line {
+    width: 1024px;
+    height: 70px;
+    overflow: hidden;
+}
+
+/*#endregion*/
+
+/*#region Inputbox*/
+
+.txtInsereDado_1 {
+    width: 1008px;
+    height: 36px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    font-family: Conv_SWZ721H;
+    font-size: 16px;
+    color: #808080;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+    .txtInsereDado_1:hover {
+        width: 1008px;
+        height: 36px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 16px;
+        color: #808080;
+        margin-right: 40px;
+        padding-left: 10px;
+    }
+
+.txtInsereDado_2 {
+    width: 494px;
+    height: 36px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    font-family: Conv_SWZ721H;
+    font-size: 16px;
+    color: #808080;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+    .txtInsereDado_2:hover {
+        width: 494px;
+        height: 36px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 16px;
+        color: #808080;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+.txtInsereDado_3 {
+    width: 318px;
+    height: 36px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    font-family: Conv_SWZ721H;
+    font-size: 16px;
+    color: #808080;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+    .txtInsereDado_3:hover {
+        width: 318px;
+        height: 36px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 16px;
+        color: #808080;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    /*#endregion*/
+
+/*#region Selectbox*/
+
+.cmbEscolheDado {
+    width: 1008px;
+    height: 40px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    font-family: Conv_SWZ721H;
+    font-size: 16px;
+    color: #808080;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+    .cmbEscolheDado:hover {
+        width: 1008px;
+        height: 40px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 16px;
+        color: #808080;
+        margin-right: 40px;
+        padding-left: 10px;
+    }
+
+.cmbEscolheDado_3 {
+    width: 328px;
+    height: 40px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    font-family: Conv_SWZ721H;
+    font-size: 16px;
+    color: #808080;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+    .cmbEscolheDado_3:hover {
+        width: 328px;
+        height: 40px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 16px;
+        color: #808080;
+        margin-right: 40px;
+        padding-left: 10px;
+    }
+
+/*#endregion*/
+
+/*#region Texts*/
+
+.lblMiniLabel {
+    font-family: Conv_SWZ721H;
+    font-size: 14px;
+    color: #808080;
+}
+
+.divTeste_texto {
+    height: 100px;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Conv_SWZ721H;
+    font-size: 18px;
+    line-height: 32px;
+    color: #b5b5b5;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .divTeste_texto:hover {
+        height: 100px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        background-color: white;
+        font-family: Conv_SWZ721H;
+        font-size: 18px;
+        line-height: 32px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        color: #b5b5b5;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*#endregion*/
+
+/*#region Buttons*/
+
+.btnButton_green {
+    height: 40px;
+    border: 1px solid #629a69;
+    border-radius: 6px;
+    background-color: #629a69;
+    font-family: Conv_SWZ721H;
+    font-size: 14px;
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+    .btnButton_green:hover {
+        height: 40px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 14px;
+        color: #e2e2e2;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+.btnButton_red {
+    height: 40px;
+    border: 1px solid #b53d3d;
+    border-radius: 6px;
+    background-color: #f25959;
+    font-family: Conv_SWZ721H;
+    font-size: 14px;
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+    .btnButton_red:hover {
+        height: 40px;
+        border: 1px solid #0082ff;
+        border-radius: 6px;
+        box-shadow: rgb(0 130 255 / 0.40) 2px 2px 15px;
+        font-family: Conv_SWZ721H;
+        font-size: 14px;
+        color: #e2e2e2;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+#btnTesteHeader_novo_usuario {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: transparent;
+    width: 200px;
+    height: 92px;
+    color: #808080;
+    font-family: Conv_SWZ721H;
+    font-size: 20px;
+    position: absolute;
+    left: 3px;
+    cursor: pointer;
+    top: 0px;
+}
+
+    #btnTesteHeader_novo_usuario:hover {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        background-color: #62879a;
+        width: 200px;
+        height: 92px;
+        color: white;
+        font-family: Conv_SWZ721H;
+        font-size: 20px;
+        position: absolute;
+        left: 3px;
+        cursor: pointer;
+    }
+/*#endregion*/
+
+/*#region Rodape*/
+
+#divTesteRodape {
+    height: 423px;
+    background-image: url('../images/layout/rodape.jpg');
+}
+
+/*#endregion*/

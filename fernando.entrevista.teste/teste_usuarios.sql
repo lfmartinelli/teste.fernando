@@ -1,0 +1,5 @@
+INSERT INTO "teste_usuarios"("cod", "email", "senha", "acessos", "nome", "data_nascimento", "sexo", "ativo") VALUES (101, 'gabriel@gmail.com', '1223', '[usuarios][clientes]', 'Gabriel Martinelli Ramos', '2021-08-31', 0, 1);
+INSERT INTO "teste_usuarios"("cod", "email", "senha", "acessos", "nome", "data_nascimento", "sexo", "ativo") VALUES (2, 'jose@gmail.com', '12345', '[clientes]', 'José Fulano', '1980-01-08', 0, 0);
+INSERT INTO "teste_usuarios"("cod", "email", "senha", "acessos", "nome", "data_nascimento", "sexo", "ativo") VALUES (100, 'fernando@gmail.com', '12345', '[clientes][usuarios]', 'Fernando Martinelli', '1970-04-18', 0, 1);
+INSERT INTO "teste_usuarios"("cod", "email", "senha", "acessos", "nome", "data_nascimento", "sexo", "ativo") VALUES (3, 'financeiro@gobyte.com.br', 'zgd3g0438', '-', 'Sandra Martinelli', '1976-08-19', 1, 1);
+INSERT INTO "teste_usuarios"("cod", "email", "senha", "acessos", "nome", "data_nascimento", "sexo", "ativo") VALUES (4, 'comercial@teste.com.br', '2n4wq0441', '[usuarios]', 'João Beltrano', '1968-10-12', 0, 1);
