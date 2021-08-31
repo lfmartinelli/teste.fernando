@@ -22,7 +22,7 @@ namespace goByte.teste.Models
         /// <summary>
         /// Constatnte com a string de conexão ODBC
         /// </summary>
-        public const string conection_string = "DRIVER={PostGreSQL Ansi}; SERVER=pgsql.gobyte.com.br;UID=gobyte2;PWD=golab@123;DATABASE=gobyte2;OPTION=3";
+        public const string conection_string = "-";
         /// <summary>
         /// Campos com valores para UPDATE ou só valores para INSERT.
         /// </summary>
